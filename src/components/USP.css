@@ -1,0 +1,106 @@
+/* src/components/CardMatrix.css */
+.gap-background {
+  background-color: white;
+  /* Color for the gaps between the cards */
+  padding: 20px;
+  /* Adjust padding as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: Rockwell;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70.4px;
+  letter-spacing: -0.03888889029622078px;
+  text-align: left;
+}
+
+.card-container {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 1512px;
+  height: 700px;
+}
+
+.card-container-mobile {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 377px;
+  height: 847px;
+}
+.card-container .row {
+  flex: 1;
+  display: flex;
+  margin: 0;
+  background-color: transparent;
+}
+
+.card-container .col {
+  flex: 1;
+  background-color: transparent;
+  padding: 0;
+}
+
+.cardTitle {
+  margin-top: 72px;
+  margin-left: 75px;
+  font-family: Rockwell;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32.88px;
+  text-align: left;
+}
+
+.cardBody {
+  height: 306px;
+
+}
+
+.cardText{
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+}
+.card-col {
+  position: relative;
+  padding: 5px;
+  /* Adjust padding to control the gap size */
+  /*background-color: green;*/
+  /* Ensure the gaps are black */
+  background-color: transparent;
+}
+
+.custom-card {
+  border-radius: 60px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border: none;
+}
+
+.card-container .row:first-child .card-col:first-child .custom-card {
+  border-top-left-radius: 15px;
+}
+
+.card-container .row:first-child .card-col:last-child .custom-card {
+  border-top-right-radius: 15px;
+}
+
+.card-container .row:last-child .card-col:first-child .custom-card {
+  border-bottom-left-radius: 15px;
+}
+
+.card-container .row:last-child .card-col:last-child .custom-card {
+  border-bottom-right-radius: 15px;
+}

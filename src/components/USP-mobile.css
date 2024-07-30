@@ -1,0 +1,81 @@
+/* src/components/CardMatrix.css */
+.gap-background {
+  background-color: white;
+  /* Color for the gaps between the cards */
+  padding: 20px;
+  /* Adjust padding as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: Rockwell;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70.4px;
+  letter-spacing: -0.03888889029622078px;
+  text-align: left;
+}
+
+.card-container {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 377px;
+  height: 847px;
+}
+
+.card-container-mobile .row {
+  flex: 1;
+  display: flex;
+  margin: 0;
+  background-color: transparent;
+}
+
+.card-container-mobile .col {
+  flex: 1;
+  background-color: transparent;
+  padding: 0;
+}
+
+.cardTitle-mobile {
+  font-family: Rockwell;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.4px;
+  letter-spacing: -0.03888889029622078px;
+  text-align: left;
+  
+}
+
+.cardBody-mobile {
+  height: 132px;
+  width: 364px;
+}
+
+.cardText-mobile{
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;  
+}
+.card-col-mobile {
+  position: relative;
+  padding: 5px;
+  /* Adjust padding to control the gap size */
+  /*background-color: green;*/
+  /* Ensure the gaps are black */
+  background-color: transparent;
+}
+
+.custom-card-mobile {
+  border-radius: 35px;
+  height: 132px;
+  width: 364px;
+  margin: 0;
+}
+
