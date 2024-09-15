@@ -9,7 +9,7 @@ const DesktopView = lazy(() => import('./components/USPdesktop'));
 
 const App: React.FC = () => {
   const { width } = useViewport();
-  const breakpoint = 768; // Define your breakpoint for mobile vs. desktop  
+  const breakpoint = 868; // Define your breakpoint for mobile vs. desktop  
   return (
     <Suspense fallback={<div>Loading...</div>}>
       {width < breakpoint ? <MobileView /> : <DesktopView />}
